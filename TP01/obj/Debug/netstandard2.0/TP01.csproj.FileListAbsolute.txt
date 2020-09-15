@@ -1,0 +1,14 @@
+C:\Users\huand\source\repos\TP01\TP01\TP01\bin\Debug\netstandard2.0\TP01.deps.json
+C:\Users\huand\source\repos\TP01\TP01\TP01\bin\Debug\netstandard2.0\TP01.dll
+C:\Users\huand\source\repos\TP01\TP01\TP01\bin\Debug\netstandard2.0\ref\TP01.dll
+C:\Users\huand\source\repos\TP01\TP01\TP01\bin\Debug\netstandard2.0\TP01.pdb
+C:\Users\huand\source\repos\TP01\TP01\TP01\obj\Debug\netstandard2.0\TP01.csprojAssemblyReference.cache
+C:\Users\huand\source\repos\TP01\TP01\TP01\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\huand\source\repos\TP01\TP01\TP01\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\huand\source\repos\TP01\TP01\TP01\obj\Debug\netstandard2.0\TP01.AssemblyInfoInputs.cache
+C:\Users\huand\source\repos\TP01\TP01\TP01\obj\Debug\netstandard2.0\TP01.AssemblyInfo.cs
+C:\Users\huand\source\repos\TP01\TP01\TP01\obj\Debug\netstandard2.0\TP01.csproj.CoreCompileInputs.cache
+C:\Users\huand\source\repos\TP01\TP01\TP01\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\huand\source\repos\TP01\TP01\TP01\obj\Debug\netstandard2.0\TP01.dll
+C:\Users\huand\source\repos\TP01\TP01\TP01\obj\Debug\netstandard2.0\ref\TP01.dll
+C:\Users\huand\source\repos\TP01\TP01\TP01\obj\Debug\netstandard2.0\TP01.pdb

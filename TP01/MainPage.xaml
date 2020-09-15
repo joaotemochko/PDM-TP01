@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP01.MainPage">
+
+    <StackLayout BackgroundColor="Black">
+        <Frame BackgroundColor="Black" 
+               Padding="24" 
+               CornerRadius="0">
+            
+            <Label Text="Aplicação Teste" 
+                   HorizontalTextAlignment="Center" 
+                   TextColor="White" 
+                   FontSize="36" 
+                   BackgroundColor="Black"/>
+        </Frame>
+        
+        <Grid Margin="0, 100, 0,20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            
+            <Label Grid.Row="0" 
+                   Grid.Column="0" 
+                   TextColor="white" 
+                   Text="ID" 
+                   FontSize="Title" 
+                   Padding="20,10,20,10"/>
+            
+            <Entry Grid.Row="0" 
+                   Grid.Column="1" 
+                   x:Name="idEntry" 
+                   HorizontalTextAlignment="Start"
+                   TextChanged="idchange"
+                   BackgroundColor ="White"
+                   TextColor="red"/>
+
+            <Label Grid.Row="1" 
+                   Grid.Column="0" 
+                   TextColor="white" 
+                   Text="PASS" 
+                   FontSize="Title" 
+                   Padding="20,10,20,10"/>
+            
+            <Entry Grid.Row="1" 
+                   Grid.Column="1" 
+                   x:Name="passEntry" 
+                   TextChanged="passchange" 
+                   BackgroundColor="White"  
+                   TextColor="red"  />
+        </Grid>
+
+
+        <Button Text="OK" 
+                Clicked="BotaoOK_Clicked" 
+                TextColor="Red" 
+                Margin="20,10,20,10" >            
+        </Button>
+        
+        
+        <Button Text="Limpar" 
+                Clicked="Button_Clean" 
+                TextColor="Red" 
+                Margin="20,10,20,10">            
+        </Button>
+        
+        
+        <Button Text="Créditos" 
+                Clicked="Button_Creditos" 
+                TextColor="Red" 
+                Margin="20,10,20,10">
+        </Button>
+    </StackLayout>
+
+</ContentPage>
